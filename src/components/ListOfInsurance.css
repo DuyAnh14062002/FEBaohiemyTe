@@ -1,0 +1,43 @@
+.card-img-top {
+  height: 200px;
+  width: auto;
+  transition: all 0.5s;
+  background-image: url('../../assets/images/goi-bao-hiem-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  overflow: hidden;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.insuranceItemTemplate{
+  margin-top: 40px;
+  padding: 0px 116px;
+}
+.card-text{
+  display: flex;
+  justify-content: space-between;
+}
+.period-text{
+  margin-left: 8px;
+  font-weight: bold;
+}
+.price-title{
+  margin-right: 8px;
+}
+.title-list-insurance{
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-price{
+  font-weight: bold;
+}
+.insurance-item-container{
+  cursor: pointer;
+}

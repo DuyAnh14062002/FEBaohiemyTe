@@ -11,3 +11,27 @@
   margin-left: 80px;
   text-align: center;
 }
+.footer-homepage{
+  margin-top: 50px;
+}
+.user {
+  color: white;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 104px;
+}
+.user .name{
+   margin: 0;
+}
+.btn-logout i{
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn-logout i:hover{
+  color: red;
+  transition: 0.3s;
+}

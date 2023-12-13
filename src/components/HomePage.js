@@ -1,46 +1,10 @@
 import "./HomePage.css";
 import React from "react";
-
+import Header from "./Header";
 const HomePage = () => {
   return (
     <div className="container-homepage">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            Bảo Hiểm Sức Khỏe
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Trang Chủ
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Dịch Vụ
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Liên Hệ
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       <header class="bg-light text-center py-5 header-homepage">
         <div class="container">
@@ -48,7 +12,7 @@ const HomePage = () => {
           <p class="lead">
             Chúng tôi cung cấp các dịch vụ bảo hiểm sức khỏe chất lượng cao
           </p>
-          <a href="/" class="btn btn-primary btn-lg">
+          <a href="/listInsurance" class="btn btn-primary btn-lg">
             Đăng Ký Ngay
           </a>
         </div>

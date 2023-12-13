@@ -22,6 +22,7 @@ const LoginForm = () => {
       }
     } catch (error) {
       setError(error.response.data.errorMessage);
+      setPassword("");
     }
   };
 
@@ -40,7 +41,7 @@ const LoginForm = () => {
                 placeholder="Username"
                 id="username"
                 name="username"
-                //value="{{username}}"
+                value={email}
                 required
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -53,7 +54,7 @@ const LoginForm = () => {
                 placeholder="Password"
                 id="password"
                 name="password"
-                //value="{{password}}"
+                value={password}
                 required
                 onChange={(e) => setPassword(e.target.value)}
               />
